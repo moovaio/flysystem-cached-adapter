@@ -1,5 +1,5 @@
 {
-    "name": "league/flysystem-cached-adapter",
+    "name": "moova/flysystem-cached-adapter",
     "description": "An adapter decorator to enable meta-data caching.",
     "autoload": {
         "psr-4": {
@@ -7,15 +7,15 @@
         }
     },
     "require": {
-        "league/flysystem": "~1.0",
-        "psr/cache": "^1.0.0"
+        "league/flysystem": "^3.12",
+        "psr/cache": "^1.0.0 | ^2.0.0 | ^3.0.0"
     },
     "require-dev": {
-        "phpspec/phpspec": "^3.4",
-        "phpunit/phpunit": "^5.7",
-        "mockery/mockery": "~0.9",
-        "predis/predis": "~1.0",
-        "tedivm/stash": "~0.12"
+        "phpspec/phpspec": "^7.3",
+        "phpunit/phpunit": "^8.0 | ^9.0 | ^9.4 | ^10.7",
+        "mockery/mockery": "^1.5",
+        "predis/predis": "^2.1",
+        "tedivm/stash": "~0.17"
     },
     "suggest": {
       "ext-phpredis": "Pure C implemented extension for PHP"
